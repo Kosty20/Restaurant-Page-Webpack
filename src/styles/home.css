@@ -1,0 +1,28 @@
+#home {
+    background-image: url('../images/Food\ background.jpg');
+    background-size: cover;
+    background-position-x: center;
+}
+
+#home h1 {
+    padding: 75px 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: beige;
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'Fredoka One', cursive;
+}
+
+#home p{
+    position: absolute;
+    right: 0;
+    width: 50%;
+    padding: 30px;
+    margin-top: 20vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: beige;
+    font-size: 2rem;
+    text-align: end;
+    float: right;
+    font-family: 'Signika', sans-serif;
+}
