@@ -1,0 +1,23 @@
+#contact {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	gap: 50px;
+}
+
+#contact span {
+	padding: 5px 10px;
+	border-radius: 50px;
+	color: beige;
+	background-color: rgba(0, 0, 0, 0.6);
+	font-family: 'Signika', sans-serif;
+}
+
+#contact span:not(:nth-of-type(2)) {
+	font-size: 4rem;
+}
+
+#contact span:nth-of-type(2) {
+	font-size: 3rem;
+}

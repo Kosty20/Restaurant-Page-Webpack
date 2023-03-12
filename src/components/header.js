@@ -3,16 +3,16 @@ export default function buildHeader () {
     header.id = 'header';
 
     const home = document.createElement('div');
-    const about = document.createElement('div');
+    const menu = document.createElement('div');
     const contact = document.createElement('div');
     home.textContent = 'Home';
-    about.textContent = 'About';
+    menu.textContent = 'Menu';
     contact.textContent = 'Contact';
     home.classList.add('home');
-    about.classList.add('about');
+    menu.classList.add('menu');
     contact.classList.add('contact');
 
-    header.append(home, about, contact);
+    header.append(home, menu, contact);
 
     return header;
 }
