@@ -8,7 +8,7 @@ export default function buildHeader () {
     home.textContent = 'Home';
     menu.textContent = 'Menu';
     contact.textContent = 'Contact';
-    home.classList.add('home');
+    home.classList.add('home', 'active');
     menu.classList.add('menu');
     contact.classList.add('contact');
 

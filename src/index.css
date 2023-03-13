@@ -41,13 +41,24 @@ body::before{
     background-color: black;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 #header > div {
-    width: 20%;
-    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+
+    width: 20%;
+    height: 70%;
     color: beige;
+    border: 2px solid black;
+}
+#header div:hover{
+    border-color: beige;
+    cursor: pointer;
+}
+#header div.active{
+    background-color: beige;
+    color: black;
 }
